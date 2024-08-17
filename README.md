@@ -6,6 +6,9 @@
 
 The main and currently only function of this extension is highlighting the various pieces of code for HoI4.
 
+### Themes
+- HoI4 Dark
+
 ### State History Example
 ![State History Highlighting](images/state-history-example.png)
 
@@ -19,3 +22,7 @@ The main and currently only function of this extension is highlighting the vario
 ### 1.0.0
 
 Initial release of **STupidLord's Hearts of Iron 4 Syntax Highlighting**
+
+## Credits
+
+This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**
