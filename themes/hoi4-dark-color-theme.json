@@ -1,0 +1,149 @@
+{
+    "type": "dark",
+    "colors": {
+        "titleBar.activeBackground": "#111111",
+        "titleBar.activeForeground": "#6E6F6E",
+        "editor.background": "#151515",
+        "editor.foreground": "#8A8989", // Was #5D9EC4, but was changed to make color syntax more defined
+        "editorIndentGuide.background1": "#4F504F",
+        "activityBar.activeBackground": "#151515",
+        "activityBar.background": "#111111",
+        "activityBar.foreground": "#6E6F6E",
+        "activityBar.inactiveForeground": "#545454",
+        "activityBar.border": "#151515",
+        "activityBarBadge.background": "#226B96",
+        "activityBarBadge.foreground": "#B6B4B4",
+        "sideBar.background": "#111111",
+        "sideBar.foreground": "#6E6F6E",
+        "sideBarSectionHeader.background": "#151515",
+        "sideBarSectionHeader.foreground": "#6E6F6E",
+        "sideBarSectionHeader.border": "#111111",
+        "editorGroupHeader.tabsBackground": "#1C1C1C",
+        "editorGroupHeader.border": "#151515",
+        "tab.activeBackground": "#151515",
+        "tab.activeForeground": "#8A8989",
+        "tab.inactiveBackground": "#1C1C1C",
+        "tab.inactiveForeground": "#434443",
+        "tab.border": "#151515",
+        "menu.background": "#111111",
+        "menu.foreground": "#6E6F6E",
+        "statusBar.background": "#226B96",
+        "statusBar.foreground": "#B6B4B4",
+        "statusBar.debuggingBackground": "#226B96",
+        "statusBar.debuggingForeground": "#B6B4B4",
+        "statusBar.noFolderBackground": "#226B96",
+        "statusBar.noFolderForeground": "#B6B4B4",
+        "editorBracketHighlight.foreground1": "#88BDDC",
+        "editorBracketHighlight.foreground2": "#FFE398",
+        "editorBracketHighlight.foreground3": "#FFB098",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+    },
+    "tokenColors": [
+        {
+            "scope": "comment.hoi4",
+            "settings": {
+                "foreground": "#87E3B4"
+            }
+        },
+        {
+            "scope": "keyword.control.hoi4",
+            "settings": {
+                "foreground": "#4B53B6"
+            }
+        },
+        {
+            "scope": "keyword.control.multi_scopes.hoi4",
+            "settings": {
+                "foreground": "#9399E2"
+             }
+        },
+        {
+            "scope": "keyword.control.other.hoi4",
+            "settings": {
+                "foreground": "#C3C6F3"
+            }
+        },
+        {
+            "scope": "keyword.control.conditions.hoi4",
+            "settings": {
+                "foreground": "#3C80A8"
+            }
+        },
+        {
+            "scope": "keyword.control.definition.hoi4",
+            "settings": {
+                "foreground": "#FFC072"
+            }
+        },
+        {
+            "scope": "keyword.control.boolean.hoi4",
+            "settings": {
+                "foreground": "#5D9EC4"
+            }
+        },
+        {
+            "scope": "keyword.control.tag.hoi4",
+            "settings": {
+                "foreground": "#ECB82B"
+            }
+        },
+        {
+            "scope": "keyword.control.effects.hoi4",
+            "settings": {
+                "foreground": "#3BB878"
+            }
+        },
+        {
+            "scope": "keyword.control.definition_tokens.hoi4",
+            "settings": {
+                "foreground": "#6B72CD"
+            }
+        },
+        {
+            "scope": "constant.prefdef.hoi4",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "constant.language.hoi4",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "constant.numeric.hoi4",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "constant.rhs.hoi4",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "constant.rhs.string.hoi4",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "constant.rhs.tag.hoi4",
+            "settings": {
+                "foreground": "#ECB82B"
+            }
+        },
+        {
+            "scope": "string.quoted.double.hoi4",
+            "settings": {
+                "foreground": "#FF7B51"
+            }
+        }
+    ]
+}

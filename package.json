@@ -1,0 +1,41 @@
+{
+  "name": "stupid-hoi4-syntax",
+  "displayName": "STupidLord's Hearts of Iron 4 Syntax Highlighting",
+  "description": "",
+  "icon": "icon.png",
+  "author": {
+    "name": "STupidLord"
+  },
+  "publisher": "stupidlord",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+       "id": "hoi4",
+       "aliases": ["HoI4", "hoi4"],
+       "extensions": [".txt",".gui",".gfx"],
+       "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+       "language": "hoi4",
+       "scopeName": "source.hoi4",
+       "path": "./syntaxes/hoi4.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "HoI4 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hoi4-dark-color-theme.json"
+      }
+    ]
+  }
+}
