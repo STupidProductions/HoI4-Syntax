@@ -3,8 +3,13 @@
     "colors": {
         "titleBar.activeBackground": "#111111",
         "titleBar.activeForeground": "#6E6F6E",
+        "icon.foreground": "#6E6F6E",
         "editor.background": "#151515",
         "editor.foreground": "#8A8989", // Was #5D9EC4, but was changed to make color syntax more defined
+        "focusBorder": "#226B96",
+        "editorLink.activeForeground": "#226B96",
+        "textLink.activeForeground": "#226B96",
+        "textLink.foreground": "#226B96",
         "editorIndentGuide.background1": "#4F504F",
         "activityBar.activeBackground": "#151515",
         "activityBar.background": "#111111",
@@ -36,11 +41,19 @@
         "editorBracketHighlight.foreground1": "#88BDDC",
         "editorBracketHighlight.foreground2": "#FFE398",
         "editorBracketHighlight.foreground3": "#FFB098",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
+        "notificationCenter.border": "#151515",
+        "notificationCenterHeader.foreground": "#6E6F6E",
+        "notificationCenterHeader.background": "#111111",
+        "notificationToast.border": "#151515",
+        "notifications.foreground": "#6E6F6E",
+        "notifications.background": "#111111",
+        "notifications.border": "#151515",
+        "notificationLink.foreground": "#226B96",
+        "notificationsErrorIcon.foreground": "#226B96",
+        "notificationsWarningIcon.foreground": "#226B96",
+        "notificationsInfoIcon.foreground": "#226B96",
+        "button.background": "#226B96",
+        "button.foreground": "#B6B4B4"
     },
     "tokenColors": [
         {
@@ -149,6 +162,24 @@
             "scope": "entity.name.type.id.txt",
             "settings": {
                 "foreground": "#BDDDF1"
+            }
+        },
+        {
+            "scope": "filter.focus.hoi4",
+            "settings": {
+                "foreground": "#88BDDC"
+            }
+        },
+        {
+            "scope": "keyword.control.stateprov.hoi4",
+            "settings": {
+                "foreground": "#EC952B"
+            }
+        },
+        {
+            "scope": "stateprov.hoi4",
+            "settings": {
+                "foreground": "#EC952B"
             }
         }, // Rainbow CSV compatibility
         {
