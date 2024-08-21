@@ -74,12 +74,6 @@
             }
         },
         {
-            "scope": "keyword.control.definition.hoi4",
-            "settings": {
-                "foreground": "#FFC072"
-            }
-        },
-        {
             "scope": "keyword.control.boolean.hoi4",
             "settings": {
                 "foreground": "#5D9EC4"
@@ -144,6 +138,78 @@
             "settings": {
                 "foreground": "#FF7B51"
             }
-        }
+        },
+        {
+            "scope": "keyword.other.id.txt",
+            "settings": {
+                "foreground": "#6B72CD"
+            }
+        },
+        {
+            "scope": "entity.name.type.id.txt",
+            "settings": {
+                "foreground": "#BDDDF1"
+            }
+        }, // Rainbow CSV compatibility
+        {
+            "scope": "rainbow1",
+            "settings": {
+               "foreground": "#226B96"
+            }
+        },
+        {
+            "scope": "keyword.rainbow2",
+            "settings": {
+               "foreground": "#3C80A8"
+            }
+        },
+        {
+            "scope": "entity.name.function.rainbow3",
+            "settings": {
+               "foreground": "#ECB82B"
+            }
+        },
+        {
+            "scope": "comment.rainbow4",
+            "settings": {
+               "foreground": "#FFD151"
+            }
+        },
+        {
+            "scope": "string.rainbow5",
+            "settings": {
+               "foreground": "#3039A3"
+            }
+        },
+        {
+            "scope": "variable.parameter.rainbow6",
+            "settings": {
+               "foreground": "#4B53B6"
+            }
+        },
+        {
+            "scope": "constant.numeric.rainbow7",
+            "settings": {
+               "foreground": "#EC952B"
+            }
+        },
+        {
+            "scope": "entity.name.type.rainbow8",
+            "settings": {
+               "foreground": "#FFB151"
+            }
+        },
+        {
+            "scope": "markup.bold.rainbow9",
+            "settings": {
+               "foreground": "#EC592B"
+            }
+        },
+        {
+            "scope": "invalid.rainbow10",
+            "settings": {
+               "foreground": "#FF7B51"
+            }
+        }        
     ]
 }

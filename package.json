@@ -7,12 +7,16 @@
     "name": "STupidLord"
   },
   "publisher": "stupidlord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Programming Languages"
+  ],
+  "keywords": [
+    "HoI4",
+    "Hearts of Iron 4"
   ],
   "contributes": {
     "languages": [
