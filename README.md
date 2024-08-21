@@ -23,6 +23,10 @@ The main and currently only function of this extension is highlighting the vario
 
 Initial release of **STupidLord's Hearts of Iron 4 Syntax Highlighting**
 
+### 1.0.1
+
+Basic syntax and coloring fixes, along with **[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)** compatibility
+
 ## Credits
 
 This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**
