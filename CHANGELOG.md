@@ -24,3 +24,8 @@
 - Reorganized some other syntax stuff again
 - Renamed 'redtheme's file to be consistant with Dark and Light theme file names, even though it will probably be deleted
 - Added some more coloring to Dark theme that was missing
+
+## [1.0.3] - 21/09/24
+
+- Additional highlighting syntax
+- Additional coloring for said highlighting syntax

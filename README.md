@@ -33,6 +33,10 @@ Basic syntax and coloring fixes, along with **[Rainbow CSV](https://marketplace.
 
 Expanded syntax highlighting again, as well as fixed some missing coloring in Dark theme
 
+### 1.0.3
+
+More syntax and more highlighting!
+
 ## Credits
 
 This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**

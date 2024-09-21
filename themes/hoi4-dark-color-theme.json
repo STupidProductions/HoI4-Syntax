@@ -53,7 +53,8 @@
         "notificationsWarningIcon.foreground": "#226B96",
         "notificationsInfoIcon.foreground": "#226B96",
         "button.background": "#226B96",
-        "button.foreground": "#B6B4B4"
+        "button.foreground": "#B6B4B4",
+        "list.activeSelectionBackground": "#226B96"
     },
     "tokenColors": [
         {
@@ -171,6 +172,12 @@
             }
         },
         {
+            "scope": "keyword.control.equipment.hoi4",
+            "settings": {
+                "foreground": "#5CCE94"
+            }
+        },
+        {
             "scope": "keyword.control.stateprov.hoi4",
             "settings": {
                 "foreground": "#EC952B"
@@ -180,6 +187,12 @@
             "scope": "stateprov.hoi4",
             "settings": {
                 "foreground": "#EC952B"
+            }
+        },
+        {
+            "scope": "keyword.control.ideology.hoi4",
+            "settings": {
+                "foreground": "#C3C6F3"
             }
         }, // Rainbow CSV compatibility
         {
