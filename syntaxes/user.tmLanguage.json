@@ -1,0 +1,47 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.hoi4.user",
+    "injectionSelector": [ "L:variable.hoi4", "L:variable.scope.hoi4" ],
+    "patterns": [
+        {
+            "comment": "Leaving any of these fields empty instead of having some form of placeholder text will break the extension!",
+            "include": "#keywords"
+        }
+    ],
+    "repository": {
+        "keywords": {
+            "patterns": [
+                {
+                    "comment": "Random, unclassifed, and some other things",
+                    "name": "keyword.control.other.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Conditions, things like 'yes' and 'no', and some triggers",
+                    "name": "keyword.control.conditions.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Effects and modifiers",
+                    "name": "keyword.control.effects.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Mostly triggers and other stuff for definintions",
+                    "name": "keyword.control.definition_tokens.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Resources, buildings, and equipment things",
+                    "name": "keyword.control.items.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Ideologies and sub-ideologies",
+                    "name": "keyword.control.ideology.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                }
+            ]
+        }
+    }
+}

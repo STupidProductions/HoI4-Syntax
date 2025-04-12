@@ -2,8 +2,6 @@
 
 ## [Unreleased]
 
-- Light theme
-
 ## [1.0.0] - 17/08/24
 
 - Initial release
@@ -29,3 +27,14 @@
 
 - Additional highlighting syntax
 - Additional coloring for said highlighting syntax
+
+## [1.1.0] - XX/0X/25
+
+- Replaced `keyword.control.equipment.hoi4` with `keyword.control.items.hoi4`, now including resources and buildings as well
+- A few more random highlighting syntax
+- Removed redundant and incorrect syntax
+- Added `user.tmLanguage.json` which allows the user to more simply add their own syntax to existing syntax
+- Changed `keyword.control.tag.hoi4` and `constant.rhs.tag.hoi4` to include `letter-letter/number-letter/number` tags instead of just `letter-letter-letter`
+- Added `!` and `;` to `comment.hoi4` as they also can be used for comments according to Blue from the HoI4 Modding Den
+- Remove redtheme because I have completely forgot what that was all about and it seems completely unfinished
+- *Finally* finished light theme!
