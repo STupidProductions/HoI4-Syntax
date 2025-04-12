@@ -1,0 +1,25 @@
+name: Missing Syntax
+description: Report missing syntax.
+title: "[Syntax]: "
+labels: ["bug", "enhancement"]
+assignees: "STupidLord"
+body:
+- type: markdown
+  attributes:
+    value: "## Thanks for helping improve this extension, please detail what is missing!"
+- type: input
+  attributes:
+    label: Syntax
+    description: "The string of syntax that is missing"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Type
+    description: "The type of syntax; effect, trigger, scope, ect"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional info
+    description: "Feel free to add anything else you think is important here"
