@@ -28,7 +28,7 @@
 - Additional highlighting syntax
 - Additional coloring for said highlighting syntax
 
-## [1.1.0] - XX/0X/25
+## [1.1.0] - 12/04/25
 
 - Replaced `keyword.control.equipment.hoi4` with `keyword.control.items.hoi4`, now including resources and buildings as well
 - A few more random highlighting syntax
