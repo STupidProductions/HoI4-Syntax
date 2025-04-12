@@ -1,4 +1,4 @@
-# STupidLord's HoI4 Syntax Highlighting README
+# STupidLord's Hearts of Iron 4 Syntax Highlighting
 
 **STupidLord's Hearts of Iron 4 Syntax Highlighting** is a extention made to highlight your HoI4 code in a simple way.
 
@@ -61,4 +61,4 @@ First public release version! Quite a lot of changes to syntax and now includes 
 
 ## Credits
 
-This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**
+This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**, credit to him for being the reason I started making this.
