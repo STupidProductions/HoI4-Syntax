@@ -38,3 +38,9 @@
 - Added `!` and `;` to `comment.hoi4` as they also can be used for comments according to Blue from the HoI4 Modding Den
 - Remove redtheme because I have completely forgot what that was all about and it seems completely unfinished
 - *Finally* finished light theme!
+
+## [1.2.0] - 12/04/25
+
+- Add (theoretically) all effects, modifiers, and triggers from the base game documentation files
+- Added `keyword.control.modifiers.hoi4` to separate modifiers from effects, however shares the same color still
+- Remove a bunch of other erronous syntax

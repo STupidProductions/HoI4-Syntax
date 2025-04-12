@@ -8,10 +8,6 @@ If you encounter any missing highlighting feel free to make an [issue](https://g
 
 The main and currently only function of this extension is highlighting the various pieces of code for HoI4. It also includes a way to add your own custom syntax, i.e. for custom ideologies, scripted effects, missing syntax, ect.
 
-## Known Issues
-
-Various effects, modifiers, triggers, and other text are missing from the highlighting.
-
 ### Themes
 - HoI4 Dark
 - HoI4 Light - p.s. I'm not a light mode user so I don't know exactly what people look for in a light theme
@@ -58,6 +54,10 @@ More syntax and more highlighting!
 ### 1.1.0
 
 First public release version! Quite a lot of changes to syntax and now includes a specific user syntax file + light theme.
+
+### 1.2.0
+
+The *real* public release version, I swear. Finally went through and copied the effects, modifiers, and triggers from the base game documentation so it should now have almost if not every base game thing to highlight.
 
 ## Credits
 

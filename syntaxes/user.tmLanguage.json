@@ -22,8 +22,13 @@
                     "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
                 },
                 {
-                    "comment": "Effects and modifiers",
+                    "comment": "Effects",
                     "name": "keyword.control.effects.user",
+                    "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
+                },
+                {
+                    "comment": "Modifiers",
+                    "name": "keyword.control.modifiers.user",
                     "match": "\\b(PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS)\\b"
                 },
                 {

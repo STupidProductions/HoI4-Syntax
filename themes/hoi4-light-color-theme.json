@@ -106,6 +106,12 @@
             }
         },
         {
+            "scope": "keyword.control.modifiers.hoi4",
+            "settings": {
+                "foreground": "#04BF11"
+            }
+        },
+        {
             "scope": "keyword.control.definition_tokens.hoi4",
             "settings": {
                 "foreground": "#5374C8"
@@ -209,6 +215,12 @@
         },
         {
             "scope": "keyword.control.effects.user",
+            "settings": {
+                "foreground": "#04BF11"
+            }
+        },
+        {
+            "scope": "keyword.control.modifiers.user",
             "settings": {
                 "foreground": "#04BF11"
             }
