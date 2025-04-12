@@ -44,3 +44,8 @@
 - Add (theoretically) all effects, modifiers, and triggers from the base game documentation files
 - Added `keyword.control.modifiers.hoi4` to separate modifiers from effects, however shares the same color still
 - Remove a bunch of other erronous syntax
+
+## [1.2.1] - 12/04/25
+
+- Added back a handful of missing stuff I accidently removed
+- Fixed comments not working

@@ -59,6 +59,10 @@ First public release version! Quite a lot of changes to syntax and now includes 
 
 The *real* public release version, I swear. Finally went through and copied the effects, modifiers, and triggers from the base game documentation so it should now have almost if not every base game thing to highlight.
 
+### 1.2.1
+
+Minor fixes to fix comments and some other things
+
 ## Credits
 
 This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**, credit to him for being the reason I started making this.

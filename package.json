@@ -4,7 +4,7 @@
   "description": "A simple extension for highlighting Hearts of Iron 4 script/code for a better look than the standard VSCode highlighting.",
   "icon": "icon.png",
   "publisher": "STupidProductions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.92.0"
   },
