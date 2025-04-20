@@ -55,3 +55,8 @@
 - Added an assortment of missing strings for coloring
 - Added coloring to `.yml` localization files, including special highlighting for line breaks, escaped quotes, and `§` for colored loc
 - Attempted changes on light mode to make it better (?), still would not recommended
+
+## [1.3.1] - 20/04/25
+
+- Fixed a bug where highlighting in `.yml` files would break if you included a colon after the loc string
+    - Exception: If the colon is the last charcter in the line it treats it like the lang def (e.x. `l_english:`)

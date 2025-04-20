@@ -54,7 +54,7 @@
                 },
                 {
                     "name": "loc.name.hoi4loc",
-                    "match": "(^.*)(:)",
+                    "match": "(^\\s*[\\w\\d\\.]*)(:)",
                     "captures": {
                         "1": {
                             "name": "loc.name.string.hoi4loc"

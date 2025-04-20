@@ -65,6 +65,10 @@ Minor fixes to fix comments and some other things
 
 Added coloring for `.yml` loc files after being pestered by my lead dev and another dev for the mod I work on.
 
+### 1.3.1
+
+Fixed loc highlighting being broken if you had a colon after the loc string (e.x. having `# TODO:` at the end of the line)
+
 ## Credits
 
 This extension takes heavy inspiration from **Thomas Boby's [Paradox Syntax Highlighting](https://github.com/cwtools/paradox-syntax)**, credit to him for being the reason I started making this.
