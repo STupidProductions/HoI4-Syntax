@@ -64,6 +64,43 @@
             }
         },
         {
+            "scope": "comment.hoi4loc",
+            "settings": {
+                "foreground": "#87E3B4"
+            }
+        },
+        {
+            "scope": "loc.name.string.hoi4loc",
+            "settings": {
+                "foreground": "#5db678",
+            }
+        },
+        {
+            "scope": "newline.hoi4loc",
+            "settings": {
+                "foreground": "#3f7ab1"
+            }
+        },
+        {
+            "scope": "loc.hoi4loc",
+            "settings": {
+                "foreground": "#b3654d",
+            }
+        },
+        {
+            "scope": "def.string.hoi4loc",
+            "settings": {
+                "foreground": "#5b966d",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "colon.hoi4loc",
+            "settings": {
+                "foreground": "#a3a791"
+            }
+        },
+        {
             "scope": "keyword.control.hoi4",
             "settings": {
                 "foreground": "#4B53B6"

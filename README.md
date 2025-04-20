@@ -18,8 +18,6 @@ The main and currently only function of this extension is highlighting the vario
 ### Focus Tree Example
 ![Focus Tree Highlighting](images/focus-tree-example.png)
 
-<sup>Certain country tags, such as Norway \(NOR\), take the color for operators as those have priority over tags!</sup>
-
 ## How to add custom syntax?
 
 1. Custom syntax is added in the [user.tmLanguage.json](syntaxes/user.tmLanguage.json) file. To find this on your device, it should be located at `%USERPROFILE%\.vscode\extensions\stupidlord.stupid-hoi4-syntax-1.1.0\syntaxes`
@@ -62,6 +60,10 @@ The *real* public release version, I swear. Finally went through and copied the 
 ### 1.2.1
 
 Minor fixes to fix comments and some other things
+
+### 1.3.0
+
+Added coloring for `.yml` loc files after being pestered by my lead dev and another dev for the mod I work on.
 
 ## Credits
 

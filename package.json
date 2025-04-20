@@ -4,7 +4,7 @@
   "description": "A simple extension for highlighting Hearts of Iron 4 script/code for a better look than the standard VSCode highlighting.",
   "icon": "icon.png",
   "publisher": "STupidProductions",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -22,6 +22,12 @@
        "aliases": ["HoI4", "hoi4"],
        "extensions": [".txt",".gui",".gfx"],
        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "hoi4loc",
+        "aliases": ["Loc", "Localization"],
+        "extensions": [".yml"],
+        "configuration": "./loc-language-configuration.json"
       }
     ],
     "grammars": [
@@ -34,6 +40,11 @@
         "scopeName": "source.hoi4.user",
         "path": "./syntaxes/user.tmLanguage.json",
         "injectTo": ["source.hoi4"]
+      },
+      {
+        "language": "hoi4loc",
+        "scopeName": "source.hoi4loc",
+        "path": "./syntaxes/hoi4loc.tmLanguage.json"
       }
     ],
     "themes": [

@@ -49,3 +49,9 @@
 
 - Added back a handful of missing stuff I accidently removed
 - Fixed comments not working
+
+## [1.3.0] - 19/04/25
+
+- Added an assortment of missing strings for coloring
+- Added coloring to `.yml` localization files, including special highlighting for line breaks, escaped quotes, and `§` for colored loc
+- Attempted changes on light mode to make it better (?), still would not recommended

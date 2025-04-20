@@ -1,0 +1,90 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Loc",
+	"scopeName": "source.hoi4loc",
+	"fileTypes": ["yml"],
+	"patterns": [
+		{
+			"include": "#code"
+		},
+        {
+            "include": "#comment"
+        }
+	],
+	"repository": {
+		"comment": {
+			"patterns": [
+				{
+					"name": "comment.hoi4loc",
+					"begin": "#|!|;",
+					"captures": {
+						"1": {
+							"name": "comment.pound.hoi4loc"
+						}
+					},
+					"end": "$\\n?"
+				}
+			]
+		},
+        "loc": {
+            "patterns": [
+                {
+                    "name": "newline.hoi4loc",
+                    "match": "\\\\n|\\\\\"|§"
+                },
+                {
+                    "name": "loc.hoi4loc",
+                    "match": "."
+                }
+            ]
+        },
+		"code": {
+			"patterns": [
+                {
+                    "name": "def.hoi4loc",
+                    "match": "(^.*)(:)(\\s$\\n?)",
+                    "captures": {
+                        "1": {
+                            "name": "def.string.hoi4loc"
+                        },
+                        "2": {
+                            "name": "colon.hoi4loc"
+                        }
+                    }
+                },
+                {
+                    "name": "loc.name.hoi4loc",
+                    "match": "(^.*)(:)",
+                    "captures": {
+                        "1": {
+                            "name": "loc.name.string.hoi4loc"
+                        },
+                        "2": {
+                            "name": "colon.hoi4loc"
+                        }
+                    }
+                },
+                {
+                    "name": "string.hoi4loc",
+                    "begin": "\"",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "string.quoted.double.hoi4"
+                        }
+                    },
+                    "end": "\"",
+                    "endCaptures": {
+                        "0": {
+                            "name": "string.quoted.double.hoi4"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "#loc"
+                        }
+                    ]
+                }
+			]
+		}
+	}
+}
