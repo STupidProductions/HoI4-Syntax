@@ -60,3 +60,8 @@
 
 - Fixed a bug where highlighting in `.yml` files would break if you included a colon after the loc string
     - Exception: If the colon is the last charcter in the line it treats it like the lang def (e.x. `l_english:`)
+
+## [1.3.2] - 20/05/25
+
+- Adjusted the way tags are highlighted to stop 3 number states being highlighted with the color of tags
+- Added `bypass`, `bypass_effect`, `visible`, and a few other things to highlighting as I managed to miss those somehow

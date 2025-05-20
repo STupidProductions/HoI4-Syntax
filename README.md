@@ -8,6 +8,9 @@ If you encounter any missing highlighting feel free to make an [issue](https://g
 
 The main and currently only function of this extension is highlighting the various pieces of code for HoI4. It also includes a way to add your own custom syntax, i.e. for custom ideologies, scripted effects, missing syntax, ect.
 
+### Recommended extensions to pair with
+- **[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)**
+
 ### Themes
 - HoI4 Dark
 - HoI4 Light - p.s. I'm not a light mode user so I don't know exactly what people look for in a light theme
@@ -33,26 +36,6 @@ The main and currently only function of this extension is highlighting the vario
 
 <sup>[Full changelog](https://github.com/STupidLord/stupidlord.hoi4-syntax/blob/master/CHANGELOG.md)</sup>
 
-### 1.0.0
-
-Initial release of **STupidLord's Hearts of Iron 4 Syntax Highlighting**
-
-### 1.0.1
-
-Basic syntax and coloring fixes, along with **[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)** compatibility
-
-### 1.0.2
-
-Expanded syntax highlighting again, as well as fixed some missing coloring in Dark theme
-
-### 1.0.3
-
-More syntax and more highlighting!
-
-### 1.1.0
-
-First public release version! Quite a lot of changes to syntax and now includes a specific user syntax file + light theme.
-
 ### 1.2.0
 
 The *real* public release version, I swear. Finally went through and copied the effects, modifiers, and triggers from the base game documentation so it should now have almost if not every base game thing to highlight.
@@ -68,6 +51,18 @@ Added coloring for `.yml` loc files after being pestered by my lead dev and anot
 ### 1.3.1
 
 Fixed loc highlighting being broken if you had a colon after the loc string (e.x. having `# TODO:` at the end of the line)
+
+### 1.3.2
+
+Fixed an issue where three number states would be highlighted with the color of tags. (Hid pre 1.2.0 updates to condense [Release Notes](#release-notes))
+
+Before:
+
+![Before](images/three-letter-state-before.png)
+
+After:
+
+![After](images/three-letter-state-after.png)
 
 ## Credits
 
