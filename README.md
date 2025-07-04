@@ -36,10 +36,6 @@ The main and currently only function of this extension is highlighting the vario
 
 <sup>[Full changelog](https://github.com/STupidLord/stupidlord.hoi4-syntax/blob/master/CHANGELOG.md)</sup>
 
-### 1.2.0
-
-The *real* public release version, I swear. Finally went through and copied the effects, modifiers, and triggers from the base game documentation so it should now have almost if not every base game thing to highlight.
-
 ### 1.2.1
 
 Minor fixes to fix comments and some other things
@@ -63,6 +59,10 @@ Before:
 After:
 
 ![After](images/three-letter-state-after.png)
+
+### 1.3.3
+
+Added `after`, along with a few other things.
 
 ## Credits
 
