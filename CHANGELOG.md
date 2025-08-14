@@ -65,3 +65,12 @@
 
 - Adjusted the way tags are highlighted to stop 3 number states being highlighted with the color of tags
 - Added `bypass`, `bypass_effect`, `visible`, and a few other things to highlighting as I managed to miss those somehow
+
+## [1.3.3] - 03/07/25
+
+- Missed from change log some how, `keyword.control.other.hoi4` and `keyword.control.definition_tokens.hoi4` updated.
+
+## [1.3.4] - 14/08/25 | Marketplace Update
+
+- Updated `package.json` to point to new repo location at https://github.com/STupidProductions/HoI4-Syntax.
+- Updated [How to add custom syntax?](#how-to-add-custom-syntax) to actually point to the correct version location insetad of `stupidlord.stupid-hoi4-syntax-1.1.0`.

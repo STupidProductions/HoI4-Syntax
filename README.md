@@ -36,10 +36,6 @@ The main and currently only function of this extension is highlighting the vario
 
 <sup>[Full changelog](https://github.com/STupidLord/stupidlord.hoi4-syntax/blob/master/CHANGELOG.md)</sup>
 
-### 1.2.1
-
-Minor fixes to fix comments and some other things
-
 ### 1.3.0
 
 Added coloring for `.yml` loc files after being pestered by my lead dev and another dev for the mod I work on.
@@ -64,7 +60,7 @@ After:
 
 Added `after`, along with a few other things.
 
-### Marketplace Update
+### Marketplace Update 1.3.4
 
 - Updated `package.json` to point to new repo location at https://github.com/STupidProductions/HoI4-Syntax.
 - Updated [How to add custom syntax?](#how-to-add-custom-syntax) to actually point to the correct version location insetad of `stupidlord.stupid-hoi4-syntax-1.1.0`.
