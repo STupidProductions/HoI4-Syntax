@@ -23,7 +23,7 @@ The main and currently only function of this extension is highlighting the vario
 
 ## How to add custom syntax?
 
-1. Custom syntax is added in the [user.tmLanguage.json](syntaxes/user.tmLanguage.json) file. To find this on your device, it should be located at `%USERPROFILE%\.vscode\extensions\stupidlord.stupid-hoi4-syntax-1.1.0\syntaxes`
+1. Custom syntax is added in the [user.tmLanguage.json](syntaxes/user.tmLanguage.json) file. To find this on your device, it should be located at `%USERPROFILE%\.vscode\extensions\stupidproductions.stupid-hoi4-syntax-1.3.3\syntaxes`
 2. Once you have that file open, find the appropreiate syntax to add to.
 3. To add your syntax; replace the `PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS` string inside of `"match": "\\b()\\b"` with your desired text
     1. To add multiple sets of text use the pipe symbol `|` as a devider
@@ -63,6 +63,11 @@ After:
 ### 1.3.3
 
 Added `after`, along with a few other things.
+
+### Marketplace Update
+
+- Updated `package.json` to point to new repo location at https://github.com/STupidProductions/HoI4-Syntax.
+- Updated [How to add custom syntax?](#how-to-add-custom-syntax) to actually point to the correct version location insetad of `stupidlord.stupid-hoi4-syntax-1.1.0`.
 
 ## Credits
 
