@@ -41,6 +41,36 @@
 		"code": {
 			"patterns": [
                 {
+                    "name": "string.hoi4loc",
+                    "match": "(^\\s*[\\w\\d\\.]*)(:)(\\d*\\s*)(\")(.*)(\")",
+                    "captures": {
+                        "1": {
+                            "name": "loc.name.string.hoi4loc"
+                        },
+                        "2": {
+                            "name": "colon.hoi4loc"
+                        },
+                        "4": {
+                            "name": "string.quoted.double.hoi4"
+                        },
+                        "5": {
+                            "patterns": [
+                                {
+                                    "name": "newline.hoi4loc",
+                                    "match": "\\\\n|\\\\\"|§"
+                                },
+                                {
+                                    "name": "loc.hoi4loc",
+                                    "match": "."
+                                }
+                            ]
+                        },
+                        "6": {
+                            "name": "string.quoted.double.hoi4"
+                        }
+                    }
+                },
+                {
                     "name": "def.hoi4loc",
                     "match": "(^.*)(:)(\\s$\\n?)",
                     "captures": {
@@ -51,39 +81,7 @@
                             "name": "colon.hoi4loc"
                         }
                     }
-                },
-                {
-                    "name": "loc.name.hoi4loc",
-                    "match": "(^\\s*[\\w\\d\\.]*)(:)",
-                    "captures": {
-                        "1": {
-                            "name": "loc.name.string.hoi4loc"
-                        },
-                        "2": {
-                            "name": "colon.hoi4loc"
-                        }
-                    }
-                },
-                {
-                    "name": "string.hoi4loc",
-                    "begin": "\"",
-                    "beginCaptures": {
-                        "0": {
-                            "name": "string.quoted.double.hoi4"
-                        }
-                    },
-                    "end": "\"",
-                    "endCaptures": {
-                        "0": {
-                            "name": "string.quoted.double.hoi4"
-                        }
-                    },
-                    "patterns": [
-                        {
-                            "include": "#loc"
-                        }
-                    ]
-                }
+                } 
 			]
 		}
 	}

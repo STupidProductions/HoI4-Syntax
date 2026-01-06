@@ -23,7 +23,7 @@ The main and currently only function of this extension is highlighting the vario
 
 ## How to add custom syntax?
 
-1. Custom syntax is added in the [user.tmLanguage.json](syntaxes/user.tmLanguage.json) file. To find this on your device, it should be located at `%USERPROFILE%\.vscode\extensions\stupidproductions.stupid-hoi4-syntax-1.3.3\syntaxes`
+1. Custom syntax is added in the [user.tmLanguage.json](syntaxes/user.tmLanguage.json) file. To find this on your device, it should be located at `%USERPROFILE%\.vscode\extensions\stupidproductions.stupid-hoi4-syntax-1.3.5\syntaxes`
 2. Once you have that file open, find the appropreiate syntax to add to.
 3. To add your syntax; replace the `PLACEHOLDERSOTHISDOESNTMATCHANYTHINGREMOVETHISTOADDYOUROWNTHINGS` string inside of `"match": "\\b()\\b"` with your desired text
     1. To add multiple sets of text use the pipe symbol `|` as a devider
@@ -36,13 +36,19 @@ The main and currently only function of this extension is highlighting the vario
 
 <sup>[Full changelog](https://github.com/STupidLord/stupidlord.hoi4-syntax/blob/master/CHANGELOG.md)</sup>
 
-### 1.3.0
+### 1.3.5
 
-Added coloring for `.yml` loc files after being pestered by my lead dev and another dev for the mod I work on.
+- Fixed issue [#1](https://github.com/STupidProductions/HoI4-Syntax/issues/1) and [#2](https://github.com/STupidProductions/HoI4-Syntax/issues/2) from Scarsoftime.
+- Reorded `README.md` and `CHANGELOG.md` to latest, rather than oldest.
 
-### 1.3.1
+### Marketplace Update 1.3.4
 
-Fixed loc highlighting being broken if you had a colon after the loc string (e.x. having `# TODO:` at the end of the line)
+- Updated `package.json` to point to new repo location at https://github.com/STupidProductions/HoI4-Syntax.
+- Updated [How to add custom syntax?](#how-to-add-custom-syntax) to actually point to the correct version location insetad of `stupidlord.stupid-hoi4-syntax-1.1.0`.
+
+### 1.3.3
+
+Added `after`, along with a few other things.
 
 ### 1.3.2
 
@@ -56,14 +62,13 @@ After:
 
 ![After](images/three-letter-state-after.png)
 
-### 1.3.3
+### 1.3.1
 
-Added `after`, along with a few other things.
+Fixed loc highlighting being broken if you had a colon after the loc string (e.x. having `# TODO:` at the end of the line)
 
-### Marketplace Update 1.3.4
+### 1.3.0
 
-- Updated `package.json` to point to new repo location at https://github.com/STupidProductions/HoI4-Syntax.
-- Updated [How to add custom syntax?](#how-to-add-custom-syntax) to actually point to the correct version location insetad of `stupidlord.stupid-hoi4-syntax-1.1.0`.
+Added coloring for `.yml` loc files after being pestered by my lead dev and another dev for the mod I work on.
 
 ## Credits
 
